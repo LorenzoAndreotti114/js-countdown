@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+h1, h2 {
+    font-size: 10vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vw;
+    background-color: brown;
+}
+
+.inner-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+
+.standard-btn {
+    padding: 2% 5%;
+}
+
+.inner-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+}
